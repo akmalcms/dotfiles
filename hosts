@@ -1,0 +1,31 @@
+# Common nameservers hosts
+# append this to host file at /etc/hosts
+#
+
+# quad9
+9.9.9.9 quad9
+149.112.112.112 quad9
+2620:fe::fe quad9 quad9-v6
+2620:fe::9 quad9 quad9-v6
+
+9.9.9.11 quad9-secured
+149.112.112.11 quad9-secured
+2620:fe::11 quad9-secured quad9-secured-v6
+2620:fe::fe:11 quad9-secured quad9-secured-v6
+
+9.9.9.10 quad9-unsecured
+149.112.112.10 quad9-unsecured
+2620:fe::10 quad9-unsecured quad9-unsecured-v6
+2620:fe::fe:10 quad9-unsecured quad9-unsecured-v6 
+
+# cloudflare
+1.1.1.1 cloudflare
+1.0.0.1 cloudflare
+2606:4700:4700::1111 cloudflare cloudflare-v6
+2606:4700:4700::1001 cloudflare cloudflare-v6
+
+# google
+8.8.8.8 google
+8.8.4.4 google
+2001:4860:4860::8888 google google-v6
+2001:4860:4860::8844 google google-v6
