@@ -1,0 +1,7 @@
+" vimrc file here!
+" references: https://linux101.dev/vim-editor/configure-vimrc/
+"
+
+set nu rnu ic scs hls is mouse=a
+filetype plugin indent on
+colo zaibatsu
